@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" version="2.0">
+    <description></description>
+    <tlib-version>1.2</tlib-version>
+    <jsp-version>1.2</jsp-version>
+    <short-name>armory tags</short-name>
+    <uri>http://web.armory.xx.org</uri>
+
+    <tag>
+        <name>script</name>
+        <tag-class>org.xx.armory.web.tags.AScript</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>pro</name>
+            <required>false</required>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>css</name>
+        <tag-class>org.xx.armory.web.tags.ACss</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>pro</name>
+            <required>false</required>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>img</name>
+        <tag-class>org.xx.armory.web.tags.HtmlImage</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>id</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>lang</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>title</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>cssClass</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>style</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>src</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>a</name>
+        <tag-class>org.xx.armory.web.tags.HtmlLink</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>id</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>lang</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>title</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>cssClass</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>style</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>href</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>target</name>
+            <required>false</required>
+        </attribute>
+    </tag>
+</taglib>
