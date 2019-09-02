@@ -26,7 +26,7 @@
 				<div class="bm_boxrow">
 					<div class="bm_boximport">
 						<label><input type="text" name="login-name-or-mobile" id="login-name-or-mobile"
-							class="bm_intext bm_intext_phone" placeholder="注册账号或萌承绑定手机" /></label>
+							class="bm_intext bm_intext_phone" placeholder="注册账号或石玖绑定手机" /></label>
 					</div>
 				</div>
 				<div class="bm_box_cue" style="display: none;" id="loginNameOrMobileErrorTips">
@@ -122,7 +122,7 @@ Sys.service.on('ResetPwd',function(data){
         			+'请尽快使用此临时密码登录网站，前往您的“个人账户中心”，在“班汇通账户信息”中将其修改为您的安全密码。<br /></p>',null,function(){
 			window.location.assign(Sys.evalUrl('/login.html'));
 		}); */
-		$('.dealInfoMsg').html('萌承帐户密码重置成功。').show();
+		$('.dealInfoMsg').html('石玖帐户密码重置成功。').show();
 		$('#dealMask').show();
 	}
 },false);

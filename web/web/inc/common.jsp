@@ -12,7 +12,7 @@
 	content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 <link rel="icon" href="<%=rootPath%>/web/favicon.png" />
 <link rel="shortcut icon" href="<%=rootPath%>/web/favicon.png" />
-<title>萌承科技</title>
+<title>石玖科技</title>
 <style type="text/css">
   .msgBtn {background-color: #48a3e5;color: #f7f7f7;text-decoration: none;border-radius: 5px;padding: 5px 10px;}
   /*提示或错误信息弹出时的灰色遮罩层*/
@@ -31,7 +31,7 @@
 <script>
 var mobile = true;
 var RootPath = '<%=rootPath%>';
-var PortalPath = window.location.href.indexOf('mengchengkeji.com') >= 0 ? 'http://www.mengchengkeji.com/xinran/': '/xinran/';
+var PortalPath = window.location.href.indexOf('19shijiu.com') >= 0 ? 'http://www.19shijiu.com/xinran/': '/xinran/';
 </script>
 <script type="text/javascript">
 	Sys.config.baseSrvUrl = '';

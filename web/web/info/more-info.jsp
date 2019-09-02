@@ -9,7 +9,7 @@
 	    <div id="infoMsg" style="display:none;"></div>
 	    <div class="mask" id="mask" style="display:none;"></div>
 		<ul class="bm_chujie_ul bm_fenxiang_ul">
-	    	<li><a href="javascript:showShare();"><em class="bm_btn_right">&gt;</em><em style="color: #d24545; font-size: 1.5rem; font-weight: bold">分享萌承</em></a></li>
+	    	<li><a href="javascript:showShare();"><em class="bm_btn_right">&gt;</em><em style="color: #d24545; font-size: 1.5rem; font-weight: bold">分享石玖</em></a></li>
 	    	<%-- <li><a href="../info/know-us.html"><em class="bm_btn_right">&gt;</em><em>关注我们</em></a></li> --%>
 	    	<%-- <li><a href="javascript:void(0);" onclick="viewPrompt();"><em class="bm_btn_right">&gt;</em><em>信息披露</em></a></li>
 			 --%><li><a href="../info/contact-us.html"><em class="bm_btn_right">&gt;</em><em>关于</em></a></li>

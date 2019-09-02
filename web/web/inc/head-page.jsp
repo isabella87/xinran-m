@@ -5,7 +5,7 @@
 <header> 
   <a href="javascript:toIndex();" class="ban_logo">
   	<a:img src="ban_logo.png"/>
-  	<div class="ban_slogan">上海萌承电子科技有限公司</div>
+  	<div class="ban_slogan">上海石玖信息科技有限公司</div>
   </a>
   <nav class="bm_nav_r"></nav>
   
